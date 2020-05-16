@@ -9,6 +9,7 @@
     "@angular/forms": "^9.1.4",
     "@angular/platform-browser": "^9.1.4",
     "@angular/router": "^9.1.4",
+    "@ionic/angular": "^5.1.1",
     "rxjs": "^6.5.5",
     "tslib": "^1.11.1",
     "zone.js": "^0.10.3"
@@ -40,6 +41,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "@ionic/angular-toolkit": "latest"
   }
 }
