@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
- { path: '', redirectTo: 'hello', pathMatch: 'full' },
- { path: 'hello', loadChildren: './hello.component#HelloComponent' },
+ { path: 'home', redirectTo: '', pathMatch: 'full' },
+ { path: '', loadChildren: '.pages/home/home.component#HomeModule' },
 ];
 
 @NgModule({
