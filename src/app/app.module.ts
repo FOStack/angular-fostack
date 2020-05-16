@@ -7,7 +7,11 @@ import { HelloComponent } from './hello.component';
 import { IonicModule } from '@ionic/angular';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, IonicModule.forRoot() ],
+  imports:      [ 
+    BrowserModule, 
+    FormsModule, 
+    IonicModule.forRoot() 
+  ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
